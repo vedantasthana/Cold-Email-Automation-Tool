@@ -35,7 +35,7 @@ def send_email(recipient, subject, body, resume_path):
     print(f" Email sent to {recipient}")
 
 curr_dir = os.getcwd()
-resume_path = curr_dir + '/Vedant_Asthana_SDE.pdf'
+resume_path = curr_dir + '/Vedant_Asthana_Resume.pdf'
 
 def send_emails_batch(df, backup_dict, sent_emails, sent_emails_path, resume_path=resume_path):
     for index, row in df.iterrows():
